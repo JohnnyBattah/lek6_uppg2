@@ -1,0 +1,85 @@
+.logo{
+    height: 60px;
+    width: auto;
+    margin-left: 90px;
+}
+
+aside{
+    background-image: url(img/dragon_side.png);
+    background-repeat: no-repeat;
+    grid-column: 1/2;
+    grid-row: 2/5;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-size: cover;
+    height: 100%;
+}
+
+.grid-box{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 10vh 10vh 110vh 10vh;
+   column-gap: 2px;
+    row-gap: 5px;
+}
+
+nav{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-image: url(img/background.jpg);
+}
+a{
+    color: white;
+}
+
+main{
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 3/4;
+    border: 3px solid black;
+    border-radius: 5px;
+    grid-template-columns: repeat(3,1fr);
+    background-image: url(img/background.jpg);
+}
+
+main img{
+    height: auto;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+footer{
+    grid-column: 2/4;
+    grid-row: 4/5;
+    border: 3px solid black;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background-image: url(img/background.jpg);
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li{
+    margin-right: 10px;
+}
+
+header{
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-image: url(img/background.jpg);
+    color: white;
+}
+
+.logo-div{
+    border: 3px solid black;
+    border-radius: 5px;
+}
